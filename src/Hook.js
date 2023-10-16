@@ -1,7 +1,10 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 function Hook()
 {
+    useEffect(()=>{
+        console.log("LOADING....")
+    })
     const[name,setName]=useState("Shivangi")
     return(
         <div>
