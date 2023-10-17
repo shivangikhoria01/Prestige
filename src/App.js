@@ -1,4 +1,5 @@
-import Hook from "./Hook";
+
+import Style from "./Style";
 
 
 
@@ -6,7 +7,7 @@ function App()
 {
   return (
     <div >
-   <Hook></Hook>
+   <Style></Style>
     </div>
   )
 }

@@ -2,14 +2,18 @@ import { useEffect, useState } from "react"
 
 function Hook()
 {
+    const [count,setCount]=useState(0)
+    const [data,setData]=useState(10)
     useEffect(()=>{
         console.log("LOADING....")
-    })
-    const[name,setName]=useState("Shivangi")
+    },[count])
+   
     return(
         <div>
-            <h1>My name is {name}</h1>
-            <button onClick={()=>setName("Shivi")}>Submit</button>
+            <h1>Count {count}</h1>
+            <h1>Data {data}</h1>
+            <button onClick={()=>setCount(count+1)}>Count</button>
+            <button onClick={()=>setData(data+1)}>Data</button>
         </div>
     )
 }
