@@ -1,8 +1,4 @@
-
 import Style from "./Style";
-
-
-
 function App() 
 {
   return (
