@@ -1,9 +1,12 @@
-import Style from "./Style";
+
+import Frag from "./Frag";
+
 function App() 
 {
   return (
-    <div >
-   <Style></Style>
+    <div>
+      <Frag></Frag>
+  
     </div>
   )
 }
