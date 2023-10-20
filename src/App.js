@@ -1,11 +1,11 @@
 
-import Frag from "./Frag";
+import Cmp1 from "./Cmp1";
 
 function App() 
 {
   return (
     <div>
-      <Frag></Frag>
+    <Cmp1></Cmp1>
   
     </div>
   )
