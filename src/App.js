@@ -1,11 +1,11 @@
+import Ref from "./Ref";
 
-import Cmp1 from "./Cmp1";
 
 function App() 
 {
   return (
     <div>
-    <Cmp1></Cmp1>
+    <Ref></Ref>
   
     </div>
   )

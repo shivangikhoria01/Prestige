@@ -1,8 +1,10 @@
 function Cmp2(prop)
 {
+    const data="golu"
     return(
         <div>
-         <h1>my name is {prop.name}</h1>   
+            <button onClick={()=>prop.name(data)}>submit</button>
+
         </div>
     )
 }
