@@ -1,12 +1,11 @@
-import Ref from "./Ref";
+import ApiData from "./ApiData";
 
 
 function App() 
 {
   return (
-    <div>
-    <Ref></Ref>
-  
+    <div>  
+ <ApiData></ApiData>
     </div>
   )
 }
