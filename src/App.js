@@ -1,7 +1,4 @@
-
 import Ecommerce from "./Ecommerce";
-
-
 function App() 
 {
   return (
