@@ -21,7 +21,7 @@ function Ecommerce()
         <td>Category</td>
         <td>Image</td>
     </tr>
-    {
+     {
         data.map((item)=>
         <tr>
             <td>{item.id}</td>
