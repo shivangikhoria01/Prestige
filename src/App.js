@@ -1,12 +1,13 @@
-import ApiData from "./ApiData";
+
+import Ecommerce from "./Ecommerce";
 
 
 function App() 
 {
   return (
     <div>  
- <ApiData></ApiData>
-    </div>
+ <Ecommerce></Ecommerce>
+    </div> 
   )
 }
 export default App;
